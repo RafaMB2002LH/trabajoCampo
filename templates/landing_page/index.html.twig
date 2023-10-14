@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello LandingPageController!{% endblock %}
+
+{% block body %}
+<div class="header">
+    <h1 class="title">Trabajos del campo</h1>
+</div>
+<div class="container">
+    <div class="dropdown">
+        <select class="dropdown-select">
+            <option value="trabajador">Trabajador</option>
+        </select>
+    </div>
+    <div class="dropdown">
+        <select class="dropdown-select">
+            <option value="trabajos">Trabajos</option>
+        </select>
+    </div>
+</div>
+<button class="button">Guardar</button>
+{% endblock %}
